@@ -14,11 +14,9 @@
     opacity: 0.8;
     clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0% 100%);
     @include screen("laptops") {
-      background-repeat: no-repeat;
-      background-size: auto;
-      background-attachment: fixed;
-      background-position: center;
       background: url("../../../assets/images/img-bg-adventure.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     @include screen("desktop") {
       background-repeat: no-repeat;
